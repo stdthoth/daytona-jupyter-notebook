@@ -24,3 +24,5 @@ RUN pip install --no-cache-dir jupyter
 
 
 USER $USERNAME
+
+EXPOSE 8888
