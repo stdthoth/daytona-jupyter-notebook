@@ -16,7 +16,7 @@
       "ms-toolsai.jupyter"
     ],
     "postCreateCommand": "pip install notebook pandas matplotlib",
-    "remoteUser": "Daytona",
+    "remoteUser": "vscode",
     "forwardPorts": [8888],
     "portsAttributes": {
       "8888": {
