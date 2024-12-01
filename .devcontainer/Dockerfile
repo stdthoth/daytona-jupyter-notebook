@@ -2,10 +2,10 @@
 # Base image
 FROM python:3.11-slim
 
-RUN sudo apt-get update && sudo apt-get install -y \
+RUN apt-get update && apt-get install -y \
     curl \
     git \
-    && sudo apt-get clean && sudo rm -rf /var/lib/apt/lists/*
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 
 ARG USERNAME=vscode
