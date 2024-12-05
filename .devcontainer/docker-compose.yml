@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: devcontainer_jupyter
+    container_name: devcontainer_jupyter_aginor
     ports:
       - "8888:8888"
     volumes:
