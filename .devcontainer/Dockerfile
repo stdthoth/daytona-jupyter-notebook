@@ -14,6 +14,8 @@ RUN apt-get update && apt-get install -y \
 # Switch back to jovyan user to install Python packages
 USER jovyan
 
+RUN echo 'jovyan ALL=(ALL) NOPASSWD: ALL' | tee /etc/sudoers.d/jovyan
+
 # Install additional Python packages
 RUN pip install --no-cache-dir \
     pandas-profiling[notebook] \
