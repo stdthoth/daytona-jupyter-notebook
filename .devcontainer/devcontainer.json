@@ -10,7 +10,7 @@
     "ms-python.python",
     "ms-toolsai.jupyter"
   ],
-  "postCreateCommand": "pip install --upgrade pip"
+  "postCreateCommand": "echo 'your_user ALL=(ALL) NOPASSWD: ALL' | sudo tee /etc/sudoers.d/your_user"
 }
 
   
