@@ -9,8 +9,7 @@
   "extensions": [
     "ms-python.python",
     "ms-toolsai.jupyter"
-  ],
-  "postCreateCommand": "echo 'jovyan ALL=(ALL) NOPASSWD: ALL' | sudo tee /etc/sudoers.d/jovyan"
+  ]
 }
 
   
